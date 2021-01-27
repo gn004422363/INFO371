@@ -1,0 +1,42 @@
+%
+% INFO 371 Data Set for Assignment 1
+%
+% Data from Kaggle
+% https://www.kaggle.com/ravi72munde/uber-lyft-cab-prices
+%
+% Attribute descriptions
+% distance - Distance between source and destination
+% price - Price estimate for the ride in USD
+% cab_type  - Whether the cab is Lyft or Uber
+%
+
+@relation cab
+
+@attribute distance REAL
+@attribute price REAL
+@attribute type {Lyft, Uber}
+
+@data
+%
+% 20 instances
+%
+1.03, 3, Lyft
+1.01, 7, Lyft
+0.71, 15, Uber
+0.56, 11.5, Uber
+7.62, 42, Uber
+6.26, 14, Uber
+5.7, 15.5, Uber
+5.36, 13.5, Lyft
+5.16, 12.5, Uber
+4.9, 20, Uber
+5.22, 13.5, Lyft
+5.42, 13.5, Lyft
+5.45, 22.5, Lyft
+5.56, 15, Uber
+7.46, 18, Uber
+4.73, 22.5, Lyft
+4.54, 9, Lyft
+3.53, 12, Uber
+3.79, 14, Uber
+4.03, 27.5, Lyft
